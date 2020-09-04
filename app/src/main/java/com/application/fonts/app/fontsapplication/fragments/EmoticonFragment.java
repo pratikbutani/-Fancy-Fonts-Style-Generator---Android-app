@@ -5,9 +5,8 @@ import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.Context;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.fragment.app.Fragment;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,7 +18,6 @@ import android.widget.Toast;
 import com.application.fonts.app.fontsapplication.R;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import static android.content.Context.CLIPBOARD_SERVICE;
 
@@ -64,8 +62,6 @@ public class EmoticonFragment extends Fragment {
             emoticonFonts.add("┣┓웃┏♨❤♨┑유┏┥");
             emoticonFonts.add("(Ɔ ˘⌣˘)˘⌣˘ C) ");
             emoticonFonts.add("✨Lᵒᵛᵉᵧₒᵤ");
-
-
             emoticonFonts.add("★HAPPY EMOTICONS★");
             emoticonFonts.add("✿◕ ‿ ◕✿");
             emoticonFonts.add("೭੧(❛▿❛✿)੭೨");
